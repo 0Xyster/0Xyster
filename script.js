@@ -1,5 +1,5 @@
 function fetchCodeFromBackend() {
-  return fetch('https://your-backend-url.onrender.com/get-code')
+  return fetch('https://vak-backend.onrender.com')
     .then(res => res.json())
     .then(data => data.code)
     .catch(() => {
